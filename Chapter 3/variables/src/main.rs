@@ -26,6 +26,6 @@ fn main() {
     // Better than using mut as there will be a compile-time error
     // let mut spaces = "    ";
     // spaces = spaces.len();
-    // This is because spaces is still a string data type and not a usize data type which is what the len function returns
+    // This is because spaces is still a string data type and not a integer data type which is what the len function returns
     // We cant mutate a variables data type
 }
