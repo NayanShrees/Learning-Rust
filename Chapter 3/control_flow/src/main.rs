@@ -24,15 +24,15 @@ fn main() {
 
     println!("The value of number is {}", number);
 
-    //let number = if condition { 5 } else { "six" };
-    //error since expression types must match
-    //As the compiler needs to know what type the variable needs to be so that it can verify throughout the code that the type is valid everywhere we use the variable
-    //Makes it more safe since the let isn't bound in runtime, if this was the case the compiler can make less guarantees about the code
+    // let number = if condition { 5 } else { "six" };
+    // error since expression types must match
+    // As the compiler needs to know what type the variable needs to be so that it can verify throughout the code that the type is valid everywhere we use the variable
+    // Makes it more safe since the let isn't bound in runtime, if this was the case the compiler can make less guarantees about the code
 
     let mut counter = 0;
 
-    //"loop" loops forever
-    //useful for things such as checking whether a thread has completed its job
+    // "loop" loops forever
+    // useful for things such as checking whether a thread has completed its job
     let result = loop{
         counter += 1;
 
@@ -46,7 +46,7 @@ fn main() {
     println!("The value of counter is {}", result);
 
 
-    //conditional loops with while
+    // conditional loops with while
     let mut number = 3;
 
     while number != 0 {
@@ -64,12 +64,12 @@ fn main() {
         index += 1;
     }
 
-    //iterates through the array
+    // iterates through the array
     for element in a.iter() {
         println!("The value is {}", element);
     }
 
-    //(x..n) generates a range of x to n
+    // (x..n) generates a range of x to n
     for number in (1..4).rev(){
         println!("{}!", number);
     }
